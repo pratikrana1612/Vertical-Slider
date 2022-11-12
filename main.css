@@ -74,28 +74,35 @@ body{
 .second_img
 {
     background:url('images/image2.avif');
+    transform: translateY(100%);
 }
 .third_img
 {
     background:url('images/image3.avif');
+    transform: translateY(100%);
 }
 .four_img
 {
     background: url('images/image4.avif');
+    transform: translateY(100%);
 }
 .right_side
 {
     width:65vw;
     height:100vh;
+    position: relative;
 }
 .img_div
 {
     width:100%;
     height:100%;
+    position: absolute;
+    left:0;
     display: inline-block;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    transition: 0.5s ease-in-out;
     /* background-color: red; */
 }
 button{
