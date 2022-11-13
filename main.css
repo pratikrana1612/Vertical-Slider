@@ -125,6 +125,10 @@ button{
 {
     transform: translateX(-100%);
 }
+
+button:hover i{
+    color: black;
+}
 /* .down_img_go
 {
     transform: translateY(-100);
